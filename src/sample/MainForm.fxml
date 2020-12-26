@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="513.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="BlackList" layoutX="453.0" layoutY="36.0" onDragDetected="#onDragDetected" onDragDropped="#onListViewDragDropped" onDragOver="#onListViewDragOver" prefHeight="200.0" prefWidth="326.0" />
+      <ListView fx:id="WhiteList" layoutX="453.0" layoutY="280.0" onDragDetected="#onDragDetected" onDragDropped="#onListViewDragDropped" onDragOver="#onListViewDragOver" prefHeight="200.0" prefWidth="326.0" />
+      <Label fx:id="BlackLbl" layoutX="96.0" layoutY="115.0" onDragDetected="#onDragDetected" text="Black">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="WhiteLbl" layoutX="100.0" layoutY="355.0" onDragDetected="#onDragDetected" text="White">
+         <font>
+            <Font name="Georgia" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
